@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Serviços de Barbearia",
+    "description": "Diversas estilizações de corte, barba, e tratamentos para calvice",
+    "photo": "/assets/pratos/corte.png",
+    "size": 400,
+    "serving": 2,
+    "price": 50.0,
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "Serviços"
+    }
+  },
+  {
+    "title": "Micropgmentação",
+    "description":  "Diversas estilizações de corte, barba, e tratamentos para calvice",
+    "photo": "/assets/pratos/micropigmenta.jpg",
+    "size": 400,
+    "serving": 2,
+    "price": 200.0,
+    "id": 2,
+    "category": {
+      "id": 1,
+      "label": "Serviços"
+    }
+  },
+  {
+    "title": "Tratamento pata Barbas",
+    "description":  "Diversas estilizações de corte, barba, e tratamentos para calvice",
+    "photo": "/assets/pratos/barba.jpg",
+    "size": 350,
+    "serving": 1,
+    "price": 58.0,
+    "id": 3,
+    "category": {
+      "id": 1,
+      "label": "Serviços"
+    }
+  },
+  {
+    "title": "Protese Capilar",
+    "description": "Salada da casa (alface, rúcula, cenoura) com salmão.",
+    "photo": "/assets/pratos/protese.jpg",
+    "size": 450,
+    "serving": 1,
+    "price": 1800.0,
+    "id": 4,
+    "category": {
+      "id": 1,
+      "label": "Serviços"
+    }
+  },
+  {
+    "title": "Minoxidil",
+    "description":  "Diversas estilizações de corte, barba, e tratamentos para calvice",
+    "photo": "/assets/pratos/minoxidil.jpg",
+    "size": 550,
+    "serving": 2,
+    "price": 86.0,
+    "id": 5,
+    "category": {
+      "id": 2,
+      "label": "Produtos"
+    }
+  },
+  {
+    "title": "Pomadas para  Cabelo",
+    "description":  "Diversas estilizações de corte, barba, e tratamentos para calvice",
+    "photo": "/assets/pratos/pomada.png",
+    "size": 850,
+    "serving": 3,
+    "price": 123.0,
+    "id": 6,
+    "category": {
+      "id": 2,
+      "label": "Produtos"
+    }
+  }
+ 
+]

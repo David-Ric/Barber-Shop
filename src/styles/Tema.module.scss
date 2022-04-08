@@ -1,0 +1,78 @@
+@import "./variaveis";
+@import "./breakpoints";
+
+.container {
+  align-items: center;
+  margin: 3vh ;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  
+}
+
+.titulo {
+  color: $dark;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hamburguer button{
+  display: none;
+  visibility: none;
+  background-color: aqua;
+
+}
+.container img{
+  width: 100%;
+  @media (max-width: 900px) {
+    height: 30vh;
+  }
+  
+}
+.formulario{
+  
+  padding: 40px;
+  width: 80%;
+  height: 100vh;
+  background-color: rgb(236, 233, 233);
+  border-radius: 10px;
+  margin-left: 20vh;
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  @media (max-width: 900px) {
+    margin-left: 4vh;
+    height: 80vh;
+    margin-bottom: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 20px;
+    
+}}
+.imptNome{
+  margin-top: 20px;
+  width: 100%;
+  
+}
+
+.imptDate{
+  margin-top: 20px;
+}
+  .imptTime{
+    margin-top: 20px;
+    width: 53%;
+  }
+  .imptfone{
+    margin-top: 20px;
+    width: 53%;
+  }
+  .obs{
+    margin-top: 20px;
+    width: 100%;
+    height: 20%;
+  }
+  .container__lateral{
+    width: 40%;
+  }
